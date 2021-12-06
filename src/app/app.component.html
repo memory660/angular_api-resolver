@@ -1,0 +1,23 @@
+<app-header></app-header>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+
+<hr />
+
+<h2>Avantages -</h2>
+- Éviter les contrôles ennuyeux de ngIf au niveau HTML, juste pour charger les
+données en toute sécurité.<br />
+- Meilleure expérience utilisateur avec moins ou pas d'utilisation de spinners
+de chargement.<br />
+- Logique sans encombrement, les composants peuvent se concentrer sur les
+données qu'ils ont reçues plutôt que sur la façon d'obtenir les données.<br />
+- Gestion des erreurs plus simple, si l'API échoue, redirigez l'utilisateur vers
+une nouvelle route, sans charger le composant.<br />
+- Mutation des données, ou attachement de plus de logique avant d'accéder au
+composant chargé.<br />
+<br />
+<h2>Inconvénients</h2>
+- Si la réponse de l'API est énorme, il y aura un retard important dans la
+prévisualisation du composant.<br />
+- Il y aura toujours une microseconde de retard dans l'affichage du composant de
+prévisualisation, après le clic sur la route de déclenchement.<br />
